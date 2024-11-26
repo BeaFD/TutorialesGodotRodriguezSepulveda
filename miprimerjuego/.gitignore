@@ -1,0 +1,63 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Directorios de usuario
+/user/
+
+# Configuraciones específicas de Godot
+.export/             # Directorio de exportación
+*.import             # Archivos generados para recursos importados
+
+# Archivos temporales y de caché
+import-*/            # Archivos temporales de importación
+*.tmp                # Archivos temporales
+*.log                # Archivos de log
+
+# Archivos del editor
+.editor_settings-*.godot
+.editor_settings-*.cfg
+.editor_settings
+
+# Carpetas generadas por plataformas específicas
+.android/
+.gradle/
+build/
+bin/
+
+# Ignorar empaquetados
+*.pck
+*.zip
+*.tar.gz
+
+# Caches de IDE
+.idea/
+.vscode/
+*.iml
+
+# Archivos generados en exportaciones
+*.exe
+*.app
+*.apk
+*.ipa
+*.xcodeproj
+*.dll
+*.dylib
+*.so
+*.pdb
+*.ilk
+*.manifest
+*.lib
+*.exp
+
+# Configuraciones específicas del usuario
+*.swp
+*.swo
